@@ -32,3 +32,62 @@ dic1.update(dic2)
 dic1.update(dic3)
 
 dic1
+
+TASK4
+
+n = 5
+result = {}
+
+for x in range(1, n + 1):
+    result[x] = x * x
+
+print(result)
+
+TASK5
+
+n = 15
+result = {}
+
+for x in range(1, n + 1):
+    result[x] = x * x
+
+print(result)
+
+TASK1
+
+my_set = {1,2,2,3,5,6,'hello','world'}
+
+print(my_set)
+
+TASK2
+
+sets = {'banana','apple','peach','banana'}
+
+for val in sets:
+    print(val)
+
+TASK3
+
+sets = {'banana','apple','peach','banana'}
+
+sets.add('orange')
+
+print(sets)
+
+TASK4
+
+my_set = {1,2,2,3,5,6,'hello','world'}
+
+my_set.remove(2)
+
+my_set
+
+TASK5
+
+my_set = {1,2,2,3,5,6,'hello','world'}
+
+my_set.discard(2)
+
+my_set
+
+
